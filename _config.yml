@@ -14,8 +14,8 @@ timezone: ''
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 # 配置博客url root是我们搭建该博客的仓库名!
-url: https://kxmtufei.github.io/blog
-root: /blog/
+url: https://kxmtufei.github.io
+root: /kxmtufei.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
