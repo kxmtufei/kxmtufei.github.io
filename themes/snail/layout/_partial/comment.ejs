@@ -1,9 +1,9 @@
 <div id="blog_comments"></div>
 
-
+<!--
 <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-
+-->
 
 <!--
 <link rel="stylesheet" href="/css/gitment.css">
@@ -49,9 +49,10 @@ const myTheme = {
 
 const gitment = new Gitment({
     id: '<%= page.date %>', // optional
-    owner: "{{site.github_username}}", // GitHub ID
-    repo: "{{site.comment_gitment_repo}}", // 存储评论的 repo
-    oauth: {
+    owner: "kxmtufei", // GitHub ID
+    //repo: "git@github.com:kxmtufei/kxmtufei.github.io.git", // 存储评论的 repo
+    repo: "kxmtufei.github.io",
+	oauth: {
       client_id: "5e21b742ad8f908f6c7a",
       client_secret: "690cc9002c155d56579859e606e9c02909a0cdb9",
     },

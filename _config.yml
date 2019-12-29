@@ -41,10 +41,10 @@ anchorjs: true                          # if you want to customize anchor. check
 
 # Analytics settings
 # Baidu Analytics
-# ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+ba_track_id: 16c7c63f5ce6a5b930ff0ac92479816b
 # Google Analytics
-ga_track_id: 'UA-XXXXXXXX-X'          # Format: UA-xxxxxx-xx
-ga_domain: yoursite
+#ga_track_id: 'UA-XXXXXXXX-X'          # Format: UA-xxxxxx-xx
+#ga_domain: yoursite
 
 # Sidebar settings
 sidebar: true                      # whether or not using Sidebar.
@@ -182,7 +182,7 @@ path: baidusitemap.xml
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: 'git'
-  repo: 'git@github.com:kxmtufei/kxmtufei.github.io.git'
+  repo: 'git@gitee.com:wohaoshuaide/kxmtufei.github.io.git'
   branch: master
 
 ## share
@@ -194,8 +194,10 @@ share: true
 comment:
   gitment:
     enable: true
-    owner: Big Dragon
+    owner: kxmtufei
     repo: kxmtufei.github.io   
+    # 懒加载，设置为ture时需手动展开评论
+    lazy: true 
     client_id: 5e21b742ad8f908f6c7a
     client_secret: 690cc9002c155d56579859e606e9c02909a0cdb9
   livere:
