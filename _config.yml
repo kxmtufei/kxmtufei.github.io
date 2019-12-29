@@ -99,9 +99,9 @@ math:
   enable: true
   engine: mathjax
 #mathjax:
-#  enable: true
-#  perpage: false
-#  cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  enable: true
+  perpage: false
+  cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 #Custom Setting End
 
 # Directory
@@ -182,7 +182,7 @@ path: baidusitemap.xml
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: 'git'
-  repo: 'git@gitee.com:wohaoshuaide/kxmtufei.github.io.git'
+  repo: 'git@github.com:kxmtufei/kxmtufei.github.io.git'
   branch: master
 
 ## share
@@ -195,7 +195,7 @@ comment:
   gitment:
     enable: true
     owner: kxmtufei
-    repo: kxmtufei.github.io   
+    repo: kxmtufei.github.io
     # 懒加载，设置为ture时需手动展开评论
     lazy: true 
     client_id: 5e21b742ad8f908f6c7a
