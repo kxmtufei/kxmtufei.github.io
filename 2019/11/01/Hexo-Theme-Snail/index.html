@@ -204,14 +204,14 @@
 
                         
                         <li>
-                            <a href="/kxmtufei.github.io/photography/">Photography</a>
+                            <a href="/kxmtufei.github.io/tags/">Tags</a>
                         </li>
                         
                     
 
                         
                         <li>
-                            <a href="/kxmtufei.github.io/tags/">Tags</a>
+                            <a href="/kxmtufei.github.io/photography/">Photography</a>
                         </li>
                         
                     
@@ -308,10 +308,10 @@
                 <!-- Pager -->
                 <ul class="pager">
                     
-                    
-                    <li class="next">
-                        <a href="/kxmtufei.github.io/2019/11/01/Hexo-GitPages搭建个人博客/" data-toggle="tooltip" data-placement="top" title="Hexo-Theme-Snail">Next Post &rarr;</a>
+                    <li class="previous">
+                        <a href="/kxmtufei.github.io/2019/12/29/基于Hexo搭建博客并部署到Github-Pages/" data-toggle="tooltip" data-placement="top" title="基于Hexo搭建博客并部署到Github Pages">&larr; Previous Post</a>
                     </li>
+                    
                     
                 </ul>
 
@@ -341,24 +341,29 @@
                 <hr>
                 <div id="blog_comments"></div>
 
-
+<!--
 <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-
+-->
 
 <!--
 <link rel="stylesheet" href="/css/gitment.css">
 <script type="text/javascript" src="/js/gitment.js"></script>
 -->
 
+<!--
+<link rel="stylesheet" href="/css/gitment-cn.css">
+<script type="text/javascript" src="/js/gitment-cn.js"></script>
+-->
 
+<!--
 <script src="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/gitment.browser.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/default.css"/>
+-->
 
 <!-- 汉化 -->
 <link rel="stylesheet" href="https://billts.site/extra_css/gitment.css">
 <script src="https://billts.site/js/gitment.js"></script>
-
 
 <script>
 const myTheme = {
@@ -390,9 +395,9 @@ const myTheme = {
 
 const gitment = new Gitment({
     id: 'Fri Nov 01 2019 22:02:12 GMT+0800', // optional
-    owner: "{{site.github_username}}", // GitHub ID
-    repo: "{{site.comment_gitment_repo}}", // 存储评论的 repo
-    oauth: {
+    owner: "kxmtufei", // GitHub ID
+    repo: "kxmtufei.github.io",
+	oauth: {
       client_id: "5e21b742ad8f908f6c7a",
       client_secret: "690cc9002c155d56579859e606e9c02909a0cdb9",
     },
@@ -658,25 +663,23 @@ const gitment = new Gitment({
 <!-- Google Analytics -->
 
 
-<script>
-    // dynamic User by Hux
-    var _gaId = 'UA-XXXXXXXX-X';
-    var _gaDomain = 'yoursite';
-
-    // Originial
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', _gaId, _gaDomain);
-    ga('send', 'pageview');
-</script>
-
-
 
 
 <!-- Baidu Tongji -->
+
+<script>
+    // dynamic User by Hux
+    var _baId = '16c7c63f5ce6a5b930ff0ac92479816b';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
 
 
 <!-- Search -->
