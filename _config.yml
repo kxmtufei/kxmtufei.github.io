@@ -4,11 +4,11 @@
 
 # Site
 title: Big Dragon - Blog
-subtitle: '进击的二狗'
-#description: '青笺画卿颜，锦书念依安..'
+subtitle: '你确定这就是爱吗'
+description: '青笺画卿颜，锦书念依安..'
 #keywords: 'Java埋坑之路'
 author: 吴大龙
-language: zh-CN
+language: zh-Hans
 timezone:
 
 # URL
@@ -24,11 +24,11 @@ permalink_defaults:
 # Site settings
 #SEOTitle: Hexo-theme-snail
 email: 594728293@qq.com
-description: "青笺画卿颜，锦书念依安.."
-keyword: "Java埋坑之路"
-header-img: img/header_img/home-bg-1-dark.jpg
-signature: true #show signature
-signature-img: img/signature/dusign.png
+#description: "青笺画卿颜，锦书念依安.."
+#keyword: "Java埋坑之路"
+#header-img: img/header_img/home-bg-1-dark.jpg
+#signature: true #show signature
+#signature-img: img/signature/dusign.png
 
 # SNS settings
 github_username:    kxmtufei
@@ -48,8 +48,8 @@ ba_track_id: 16c7c63f5ce6a5b930ff0ac92479816b
 
 # Sidebar settings
 sidebar: true                      # whether or not using Sidebar.
-sidebar-about-description: "Welcome to visit, I'm Dusign!"
-sidebar-avatar: img/ironman-draw.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+#sidebar-about-description: "Welcome to visit, I'm Dusign!"
+#sidebar-avatar: img/ironman-draw.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 widgets:
 - search
 - featured-tags
@@ -169,7 +169,7 @@ markdown:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: snail
+theme: next
 
 #sitemap
 sitemap:

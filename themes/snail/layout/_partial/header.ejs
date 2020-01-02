@@ -67,13 +67,14 @@
                         <% if(config['visitor']['enable']) { %>
                             <div class="blank_box"></div>
                             <span class="meta">
-                                Words <span class="post-count"><%= wordcount(page.content) %></span> and
-                                Reading Time <span class="post-count"><%= min2read(page.content) %></span> Minutes
+                                本文字数： <span class="post-count"><%= wordcount(page.content) %></span>
+                                阅读时长： <span class="post-count"><%= min2read(page.content) %></span> 
                             </span>
                             <div class="blank_box"></div>
                             <!-- 不蒜子统计 start -->
-                            <span class="meta">
-                                Viewed <span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span> Times
+                            <span class="meta" >
+                                本文总阅读量： <span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>
+								本站访客数： <span id="busuanzi_value_site_uv"></span>
                             </span>
                             <!-- 不蒜子统计 end -->
                         <% } %>

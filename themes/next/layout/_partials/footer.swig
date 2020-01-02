@@ -21,6 +21,16 @@
   {% endif %}
 </div>
 
+<!-- 不蒜子统计 -->
+{% if theme.footer.counter %}
+    <span id="busuanzi_container_site_pv">总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+    <span class="post-meta-divider">|</span>
+    <span id="busuanzi_container_site_uv">总访客<span id="busuanzi_value_site_uv"></span>人</span>
+    <span class="post-meta-divider">|</span>
+{% endif %}
+<!-- 不蒜子统计 -->
+
+<!--
 {% if theme.footer.powered %}
   <div class="powered-by">{#
   #}{{ __('footer.powered', '<a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a>') }}{#
@@ -45,3 +55,6 @@
   #}{{ theme.footer.custom_text }}{#
 #}</div>
 {% endif %}
+-->
+<!-- busuanzi 访客统计 -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>

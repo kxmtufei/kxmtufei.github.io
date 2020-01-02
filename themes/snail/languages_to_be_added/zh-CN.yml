@@ -3,3 +3,14 @@ next: 下一页
 comment: 留言
 archive_a: 归档
 archive_b: 归档：%s
+gitmentbutton: 显示 Gitment 评论
+menu:
+  home: 首页
+  archives: 归档
+  categories: 分类
+  tags: 标签
+  about: 关于
+  search: 搜索
+  commonweal: 公益404
+  springboot: Spring Boot
+HOME: 首页

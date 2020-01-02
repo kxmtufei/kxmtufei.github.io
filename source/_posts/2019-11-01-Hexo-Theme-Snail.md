@@ -1,5 +1,5 @@
 ---
-title: Hexo-Theme-Snail
+title: Hexo-Theme-Snail设置
 catalog: true
 comments: true
 date: 2019-11-01 22:02:12
@@ -7,14 +7,8 @@ mathjax: true
 subtitle: A succinct hexo theme.
 header-img: snail-bg.jpg
 tags:
-- dusign
-- hexo-theme-snail
-- snail
 - hexo
 catagories:
-- dusign
-- hexo-theme-snail
-- snail
 - hexo
 ---
 # hexo-theme-snail
