@@ -1,740 +1,1106 @@
 <!DOCTYPE html>
-<html lang="en">
 
-<!-- Head tag -->
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
-    <meta name="baidu-site-verification" content="093lY4ziMu" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="description" content="青笺画卿颜，锦书念依安..">
-    <meta name="keyword"  content="Java埋坑之路">
-    <link rel="shortcut icon" href="/kxmtufei.github.io/img/ironman-draw.png">
-    <!-- Place this tag in your head or just before your close body tag. -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <!--<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>-->
-    <title>
-        
-          
-        
-    </title>
-
-    <link rel="canonical" href="https://kxmtufei.github.io/kxmtufei.github.io/">
-
-    <!-- Bootstrap Core CSS -->
-    
-<link rel="stylesheet" href="/kxmtufei.github.io/css/bootstrap.min.css">
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
 
 
-    <!-- Custom CSS --> 
-    
-        
-<link rel="stylesheet" href="/kxmtufei.github.io/css/dusign-light.css">
-
-        
-<link rel="stylesheet" href="/kxmtufei.github.io/css/dusign-common-light.css">
-
-        
-<link rel="stylesheet" href="/kxmtufei.github.io/css/font-awesome.css">
-
-        
-<link rel="stylesheet" href="/kxmtufei.github.io/css/toc.css">
-
-        <!-- background effects end -->
-    
-    
-    <!-- Pygments Highlight CSS -->
-    
-<link rel="stylesheet" href="/kxmtufei.github.io/css/highlight.css">
 
 
-    
-<link rel="stylesheet" href="/kxmtufei.github.io/css/widget.css">
 
 
-    
-<link rel="stylesheet" href="/kxmtufei.github.io/css/rocket.css">
 
 
-    
-<link rel="stylesheet" href="/kxmtufei.github.io/css/signature.css">
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
 
 
-    
-<link rel="stylesheet" href="/kxmtufei.github.io/css/fonts.googleapis.css">
 
 
-    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
-    <!-- ga & ba script hoook -->
-    <script></script>
-<meta name="generator" content="Hexo 4.2.0"></head>
 
 
-<!-- hack iOS CSS :active style -->
-<body ontouchstart="">
 
-    
-        <!-- background effects start -->
-        
-        <!-- background effects end -->
-    
 
-	<!-- Modified by Yu-Hsuan Yen -->
-<!-- Post Header -->
-<style type="text/css">
-    header.intro-header{
-        
-            
-                background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/kxmtufei.github.io/img/header_img/home-bg-1-dark.jpg') 
-                /*config*/
-            
-        
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/kxmtufei.github.io/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/kxmtufei.github.io/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/kxmtufei.github.io/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/kxmtufei.github.io/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/kxmtufei.github.io/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/kxmtufei.github.io/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/kxmtufei.github.io/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="青笺画卿颜，锦书念依安..">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Big Dragon - Blog">
+<meta property="og:url" content="https://kxmtufei.github.io/index.html">
+<meta property="og:site_name" content="Big Dragon - Blog">
+<meta property="og:description" content="青笺画卿颜，锦书念依安..">
+<meta property="article:author" content="吴大龙">
+<meta name="twitter:card" content="summary">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/kxmtufei.github.io/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
     }
-    
-    #signature{
-        background-image: url('/kxmtufei.github.io/img/signature/dusign.png');
-    }
-    
-</style>
-
-<header class="intro-header" >
-    <!-- Signature -->
-    <div id="signature">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                
-                    <div class="site-heading">
-                        <h1>Big Dragon - Blog</h1>
-                        <!--<hr class="small">-->
-                        <span id="subdusi" class="subheading">进击的二狗</span>
-                    </div>
-                
-
-                </div>
-            </div>
-        </div>      
-    </div>
-
-    
-    <div class="waveWrapper">
-        <div class="wave wave_before" style="background-image: url('/img/wave-light.png')"></div>
-        <div class="wave wave_after" style="background-image: url('/img/wave-light.png')"></div>
-    </div>
-    
-</header>
-
-	
-    <!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/kxmtufei.github.io/">Big Dragon - Blog</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <!-- Known Issue, found by Hux:
-            <nav>'s height woule be hold on by its content.
-            so, when navbar scale out, the <nav> will cover tags.
-            also mask any touch event of tags, unfortunately.
-        -->
-        <div id="huxblog_navbar">
-            <div class="navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="/kxmtufei.github.io/">Home</a>
-                    </li>
-
-                    
-
-                        
-                    
-
-                        
-                        <li>
-                            <a href="/kxmtufei.github.io/archive/">Archives</a>
-                        </li>
-                        
-                    
-
-                        
-                        <li>
-                            <a href="/kxmtufei.github.io/about/">About</a>
-                        </li>
-                        
-                    
-
-                        
-                        <li>
-                            <a href="/kxmtufei.github.io/tags/">Tags</a>
-                        </li>
-                        
-                    
-
-                        
-                        <li>
-                            <a href="/kxmtufei.github.io/photography/">Photography</a>
-                        </li>
-                        
-                    
-
-                    <li>
-                        <a href="https://blog.csdn.net/d_Nail" target="_blank">Chinese Blog</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-</nav>
-<script>
-    // Drop Bootstarp low-performance Navbar
-    // Use customize navbar with high-quality material design animation
-    // in high-perf jank-free CSS3 implementation
-    var $body   = document.body;
-    var $toggle = document.querySelector('.navbar-toggle');
-    var $navbar = document.querySelector('#huxblog_navbar');
-    var $collapse = document.querySelector('.navbar-collapse');
-
-    $toggle.addEventListener('click', handleMagic)
-    function handleMagic(e){
-        if ($navbar.className.indexOf('in') > 0) {
-        // CLOSE
-            $navbar.className = " ";
-            // wait until animation end.
-            setTimeout(function(){
-                // prevent frequently toggle
-                if($navbar.className.indexOf('in') < 0) {
-                    $collapse.style.height = "0px"
-                }
-            },400)
-        }else{
-        // OPEN
-            $collapse.style.height = "auto"
-            $navbar.className += " in";
-        }
-    }
+  };
 </script>
 
 
-    <!-- Main Content -->
-    <!-- Main Content -->
-<div class="container">
-    <div class="row">
-        
 
-    <!-- Post Container -->
-            <div class="
-                col-lg-8 col-lg-offset-1
-                col-md-8 col-md-offset-1
-                col-sm-12
-                col-xs-12
-                post-container
-            ">
-                <!-- Top -->
+  <link rel="canonical" href="https://kxmtufei.github.io/"/>
 
-    
 
-    
 
 
 
-<!-- Main Content -->
+  <title>Big Dragon - Blog</title>
+  
 
-    
 
-        <div class="post-preview">
 
-            <a href="/kxmtufei.github.io/2019/12/29/基于Hexo搭建博客并部署到Github-Pages/">
-                <h2 class="post-title">
-                    基于Hexo搭建博客并部署到Github Pages
-                </h2>
-                <h3 class="post-subtitle">
-                    
-                </h3>
-                <div class="post-content-preview">
-                    欢迎使用 Markdown在线编辑器 MdEditorMarkdown是一种轻量级的「标记语言」
 
-Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面，Markdown文件的后缀名便是“.md”
-MdEditor是一个在线编辑Markdown文档的编辑......
-                </div>
-            </a>
-            
-                <p class="post-meta" style="margin: 10px 0;">
-                    Posted by 吴大龙 on
-                    2019-12-29
-                </p>
-                <div class="tags">
-                    
-                </div>
-            
 
-        </div>
-        <hr>
-
-    
-
-    
-
-        <div class="post-preview">
-
-            <a href="/kxmtufei.github.io/2019/11/01/Hexo-Theme-Snail/">
-                <h2 class="post-title">
-                    Hexo-Theme-Snail
-                </h2>
-                <h3 class="post-subtitle">
-                    A succinct hexo theme.
-                </h3>
-                <div class="post-content-preview">
-                    hexo-theme-snailView Hexo-Theme-Snail Sources On Github &#10174; 
-View Live Super Snail Blog &#10174;
-
-Hexo-theme-snail is a succinct hexo theme. It has two colors, light and star, that can be set ......
-                </div>
-            </a>
-            
-                <p class="post-meta" style="margin: 10px 0;">
-                    Posted by 吴大龙 on
-                    2019-11-01
-                </p>
-                <div class="tags">
-                    
-                      <a href="/kxmtufei.github.io/tags/#dusign" title="dusign">dusign</a>
-                    
-                      <a href="/kxmtufei.github.io/tags/#hexo-theme-snail" title="hexo-theme-snail">hexo-theme-snail</a>
-                    
-                      <a href="/kxmtufei.github.io/tags/#snail" title="snail">snail</a>
-                    
-                      <a href="/kxmtufei.github.io/tags/#hexo" title="hexo">hexo</a>
-                    
-                </div>
-            
-
-        </div>
-        <hr>
-
-    
-
-
-
-<!-- Pager -->
-
-<ul class="pager">
-    
-    
-</ul>
-
-
-            </div>
-
-            <!-- Sidebar Container -->
-<div class="
-    col-lg-3 col-lg-offset-0
-    col-md-3 col-md-offset-0
-    col-sm-12
-    col-xs-12
-    sidebar-container
-">
-    
-        
-<!--
-<h5>SEARCH</h5>
-<div class="search-article" class="tags">
-	<input id="search-kw" type="text" name="search_article" placeholder="Enter keywords for search" />
-	<div class="search-img">
-		<img 
-			src="/img/search.png" 
-			alt="search" 
-			onMouseOver="this.src='/img/search-focus.png'" 
-			onMouseOut="this.src='/img/search.png'"/>
-	</div>
-</div>-->
-
-<h5>SEARCH</h5>
-<div id="site_search">
-	<div class="form-group">
-		<input type="text" id="local-search-input" name="q" results="0" placeholder="search" class="st-search-input st-default-search-input form-control"/>
-	</div>  
-	<div id="local-search-result"></div>
-</div>
-
-        <hr>
-    
-        <!-- Featured Tags -->
-
-<section>
-    <!-- no hr -->
-    <h5><a href="/kxmtufei.github.io/tags/">FEATURED TAGS</a></h5>
-    <div class="tags">
-        
-            
-        
-            
-        
-            
-        
-            
-        
-    </div>
-</section>
-
-        <hr>
-    
-        <!-- Short About -->
-<section class="visible-md visible-lg">
-    <h5><a href="/kxmtufei.github.io/about/">ABOUT ME</a></h5>
-    <div class="short-about">
-
-        
-            <img id = "avatar_pic" src="/kxmtufei.github.io/img/ironman-draw.png" />
-        
-
-        
-            <p>Welcome to visit, I&#39;m Dusign!</p>
-        
-
-        <!-- SNS Link -->
-        <ul class="list-inline">
-
-            
-                <li>
-                    <a target="_blank"  href="https://github.com/kxmtufei">
-                        <span class="fa-stack fa-lg">
-                            <i class="fa fa-circle fa-stack-2x"></i>
-                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </a>
-                </li>
-            
-
-            
-                <li>
-                    <a target="_blank" href="https://twitter.com/dusignr">
-                        <span class="fa-stack fa-lg">
-                            <i class="fa fa-circle fa-stack-2x"></i>
-                            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </a>
-                </li>
-            
-
-            
-                <li>
-                    <a target="_blank" href="https://www.facebook.com/Gang Du">
-                        <span class="fa-stack fa-lg">
-                            <i class="fa fa-circle fa-stack-2x"></i>
-                            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </a>
-                </li>
-            
-
-            
-                <li>
-                    <a target="_blank" href="https://www.zhihu.com/people/dusignr">
-                        <span class="fa-stack fa-lg">
-                            <i class="fa fa-circle fa-stack-2x"></i>
-                            <i class="fa  fa-stack-1x fa-inverse">知</i>
-                        </span>
-                    </a>
-                </li>
-            
-
-            
-
-            
-
-            
-
-        </ul>
-    </div>
-</section>
-        <hr>
-    
-        
-  <h5>VISITORS</h5>
-  <div class="widget">
-    <span>
-    	Viewed <b><i><span id="busuanzi_value_site_pv"><i class="fa fa-spinner fa-spin"></i></span></i></b> Times
-	</span>
-	<br/>
-	<span>
-		<b><i><span id="busuanzi_value_site_uv"><i class="fa fa-spinner fa-spin"></i></span></i></b> Visitors In Total
-	</span>
-  </div>
-
-        <hr>
-    
-        
-  <h5>RECENT POSTS</h5>
-  <div class="widget">
-    <ul>
-      
-        <li>
-          <a href="/kxmtufei.github.io/2019/12/29/%E5%9F%BA%E4%BA%8EHexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0Github-Pages/">基于Hexo搭建博客并部署到Github Pages</a>
-        </li>
-      
-        <li>
-          <a href="/kxmtufei.github.io/2019/11/01/Hexo-Theme-Snail/">Hexo-Theme-Snail</a>
-        </li>
-      
-    </ul>
-  </div>
-
-        <hr>
-    
-        <!-- Friends Blog -->
-
-<h5>FRIENDS</h5>
-<ul class="list-inline">
-
-    
-        <li><a href="https://blog.csdn.net/d_Nail" target="_blank">Dusign&#39;s Blog</a></li>
-    
-        <li><a href="#" target="_blank">Dusign&#39;s Web</a></li>
-    
-        <li><a href="https://github.com/dusign" target="_blank">Dusign&#39;s Github</a></li>
-    
-        <li><a href="#" target="_blank">Other</a></li>
-    
-</ul>
-
-        <hr>
-    
-        
-    <h5>ARCHIVES</h5>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/kxmtufei.github.io/archives/2019/12/">十二月 2019</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/kxmtufei.github.io/archives/2019/11/">十一月 2019</a><span class="archive-list-count">1</span></li></ul>
-    </div>
-
-        <hr>
-    
-        <!-- Categories -->
-
-        <hr>
-    
-</div>
-
-        
-    </div>
-</div>
-
-
-    <!-- Footer -->
-    <!-- Footer -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">
-
-                
-                    <li>
-                        <a target="_blank"  href="https://github.com/kxmtufei">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                
-
-                
-                    <li>
-                        <a target="_blank" href="https://twitter.com/dusignr">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                
-
-                
-                    <li>
-                        <a target="_blank" href="https://www.facebook.com/Gang Du">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                
-
-                
-                    <li>
-                        <a target="_blank" href="https://www.zhihu.com/people/dusignr">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa  fa-stack-1x fa-inverse">知</i>
-                            </span>
-                        </a>
-                    </li>
-                
-
-                
-
-                
-
-                
-
-                </ul>
-                <p class="copyright text-muted">
-                    Copyright &copy; 吴大龙 2020 
-                    <br>
-                    Powered by 
-                    <a href="https://github.com/dusign/hexo-theme-snail" target="_blank" rel="noopener">
-                        <i>hexo-theme-snail</i>
-                    </a> | 
-                    <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0"
-                        width="100px" height="20px"
-                        src="https://ghbtns.com/github-btn.html?user=dusign&repo=hexo-theme-snail&type=star&count=true">
-                    </iframe>
-                </p>
-            </div>
-        </div>
-    </div>
-
-</footer>
-
-<!-- jQuery -->
-
-<script src="/kxmtufei.github.io/js/jquery.min.js"></script>
-
-
-<!-- Bootstrap Core JavaScript -->
-
-<script src="/kxmtufei.github.io/js/bootstrap.min.js"></script>
-
-
-<!-- Custom Theme JavaScript -->
-
-<script src="/kxmtufei.github.io/js/hux-blog.min.js"></script>
-
-
-<!-- Search -->
-
-<script src="/kxmtufei.github.io/js/search.js"></script>
-
-
-<!-- async load function -->
-<script>
-    function async(u, c) {
-      var d = document, t = 'script',
-          o = d.createElement(t),
-          s = d.getElementsByTagName(t)[0];
-      o.src = u;
-      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
-      s.parentNode.insertBefore(o, s);
-    }
-</script>
-
-
-<!-- jquery.tagcloud.js -->
-<script>
-    // only load tagcloud.js in tag.html
-    if($('#tag_cloud').length !== 0){
-        async("https://kxmtufei.github.io/kxmtufei.github.io/js/jquery.tagcloud.js",function(){
-            $.fn.tagcloud.defaults = {
-                //size: {start: 1, end: 1, unit: 'em'},
-                color: {start: '#bbbbee', end: '#0085a1'},
-            };
-            $('#tag_cloud a').tagcloud();
-        })
-    }
-</script>
-
-<!--fastClick.js -->
-<script>
-    async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
-        var $nav = document.querySelector("nav");
-        if($nav) FastClick.attach($nav);
-    })
-</script>
-
-
-<!-- Google Analytics -->
-
-
-
-
-<!-- Baidu Tongji -->
-
-<script>
-    // dynamic User by Hux
-    var _baId = '16c7c63f5ce6a5b930ff0ac92479816b';
-
-    // Originial
+  <script type="text/javascript">
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      hm.src = "https://hm.baidu.com/hm.js?16c7c63f5ce6a5b930ff0ac92479816b";
       var s = document.getElementsByTagName("script")[0];
       s.parentNode.insertBefore(hm, s);
     })();
+  </script>
+
+
+
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/kxmtufei.github.io/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Big Dragon - Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">进击的二狗</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/kxmtufei.github.io/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/kxmtufei.github.io/about/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/kxmtufei.github.io/tags/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/kxmtufei.github.io/categories/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-springboot">
+          <a href="/kxmtufei.github.io/springboot/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-apple"></i> <br />
+            
+            Spring Boot
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/kxmtufei.github.io/archives/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-search">
+          <a href="/kxmtufei.github.io/search/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-search"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://kxmtufei.github.io/kxmtufei.github.io/2019/12/29/%E5%9F%BA%E4%BA%8EHexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0Github-Pages/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="吴大龙">
+      <meta itemprop="description" content="true">
+      <meta itemprop="image" content="/kxmtufei.github.io/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Big Dragon - Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/kxmtufei.github.io/2019/12/29/%E5%9F%BA%E4%BA%8EHexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0Github-Pages/" itemprop="url">基于Hexo搭建博客并部署到Github Pages</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-12-29T16:20:13+08:00">
+                2019-12-29
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="欢迎使用-Markdown在线编辑器-MdEditor"><a href="#欢迎使用-Markdown在线编辑器-MdEditor" class="headerlink" title="欢迎使用 Markdown在线编辑器 MdEditor"></a>欢迎使用 Markdown在线编辑器 MdEditor</h1><p><strong>Markdown是一种轻量级的「标记语言」</strong></p>
+<p><img src="https://www.mdeditor.com/images/logos/markdown.png" alt="markdown" title="markdown"></p>
+<p>Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面，Markdown文件的后缀名便是“.md”</p>
+<h2 id="MdEditor是一个在线编辑Markdown文档的编辑器"><a href="#MdEditor是一个在线编辑Markdown文档的编辑器" class="headerlink" title="MdEditor是一个在线编辑Markdown文档的编辑器"></a>MdEditor是一个在线编辑Markdown文档的编辑器</h2><p><em>MdEditor扩展了Markdown的功能（如表格、脚注、内嵌HTML等等），以使让Markdown转换成更多的格式，和更丰富的展示效果，这些功能原初的Markdown尚不具备。</em></p>
+<blockquote>
+<p>Markdown增强版中比较有名的有Markdown Extra、MultiMarkdown、 Maruku等。这些衍生版本要么基于工具，如<del>Pandoc</del>，Pandao；要么基于网站，如GitHub和Wikipedia，在语法上基本兼容，但在一些语法和渲染效果上有改动。</p>
+</blockquote>
+<p>MdEditor源于Pandao的JavaScript开源项目，开源地址<a href="https://github.com/pandao/editor.md" target="_blank" rel="noopener" title="Editor.md">Editor.md</a>，并在MIT开源协议的许可范围内进行了优化，以适应广大用户群体的需求。向优秀的markdown开源编辑器原作者Pandao致敬。</p>
+<p><img src="https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png" alt="Pandao editor.md" title="Pandao editor.md"></p>
+<h2 id="MdEditor的功能列表演示"><a href="#MdEditor的功能列表演示" class="headerlink" title="MdEditor的功能列表演示"></a>MdEditor的功能列表演示</h2><h1 id="标题H1"><a href="#标题H1" class="headerlink" title="标题H1"></a>标题H1</h1><h2 id="标题H2"><a href="#标题H2" class="headerlink" title="标题H2"></a>标题H2</h2><h3 id="标题H3"><a href="#标题H3" class="headerlink" title="标题H3"></a>标题H3</h3><h4 id="标题H4"><a href="#标题H4" class="headerlink" title="标题H4"></a>标题H4</h4><h5 id="标题H5"><a href="#标题H5" class="headerlink" title="标题H5"></a>标题H5</h5><h6 id="标题H5-1"><a href="#标题H5-1" class="headerlink" title="标题H5"></a>标题H5</h6><h3 id="字符效果和横线等"><a href="#字符效果和横线等" class="headerlink" title="字符效果和横线等"></a>字符效果和横线等</h3><hr>
+<p><del>删除线</del> <s>删除线（开启识别HTML标签时）</s></p>
+<p><em>斜体字</em>      <em>斜体字</em></p>
+<p><strong>粗体</strong>  <strong>粗体</strong></p>
+<p><strong><em>粗斜体</em></strong> <strong><em>粗斜体</em></strong></p>
+<p>上标：X<sub>2</sub>，下标：O<sup>2</sup></p>
+<p><strong>缩写(同HTML的abbr标签)</strong></p>
+<blockquote>
+<p>即更长的单词或短语的缩写形式，前提是开启识别HTML标签时，已默认开启</p>
+</blockquote>
+<p>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
+<h3 id="引用-Blockquotes"><a href="#引用-Blockquotes" class="headerlink" title="引用 Blockquotes"></a>引用 Blockquotes</h3><blockquote>
+<p>引用文本 Blockquotes</p>
+</blockquote>
+<p>引用的行内混合 Blockquotes</p>
+<blockquote>
+<p>引用：如果想要插入空白换行<code>即&lt;br /&gt;标签</code>，在插入处先键入两个以上的空格然后回车即可，<a href="https://www.mdeditor.com/" target="_blank" rel="noopener">普通链接</a>。</p>
+</blockquote>
+<h3 id="锚点与链接-Links"><a href="#锚点与链接-Links" class="headerlink" title="锚点与链接 Links"></a>锚点与链接 Links</h3><p><a href="https://www.mdeditor.com/" target="_blank" rel="noopener">普通链接</a><br><a href="https://www.mdeditor.com/" target="_blank" rel="noopener" title="普通链接带标题">普通链接带标题</a><br>直接链接：<a href="https://www.mdeditor.com" target="_blank" rel="noopener">https://www.mdeditor.com</a><br><a href="https://www.mdeditor.com/" target="_blank" rel="noopener">锚点链接</a></p>
+<p><a href="mailto:test.test@gmail.com">mailto:test.test@gmail.com</a><br>GFM a-tail link @pandao<br>邮箱地址自动链接 test.test@gmail.com  www@vip.qq.com</p>
+<blockquote>
+<p>@pandao</p>
+</blockquote>
+<h3 id="多语言代码高亮-Codes"><a href="#多语言代码高亮-Codes" class="headerlink" title="多语言代码高亮 Codes"></a>多语言代码高亮 Codes</h3><h4 id="行内代码-Inline-code"><a href="#行内代码-Inline-code" class="headerlink" title="行内代码 Inline code"></a>行内代码 Inline code</h4><p>执行命令：<code>npm install marked</code></p>
+<h4 id="缩进风格"><a href="#缩进风格" class="headerlink" title="缩进风格"></a>缩进风格</h4><p>即缩进四个空格，也做为实现类似 <code>&lt;pre&gt;</code> 预格式化文本 ( Preformatted Text ) 的功能。</p>
+<pre><code>&lt;?php
+    echo &quot;Hello world!&quot;;
+?&gt;
+</code></pre><p>预格式化文本：</p>
+<pre><code>| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+</code></pre><h4 id="JS代码"><a href="#JS代码" class="headerlink" title="JS代码"></a>JS代码</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">test</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">	<span class="built_in">console</span>.log(<span class="string">"Hello world!"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="HTML-代码-HTML-codes"><a href="#HTML-代码-HTML-codes" class="headerlink" title="HTML 代码 HTML codes"></a>HTML 代码 HTML codes</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">mate</span> <span class="attr">charest</span>=<span class="string">"utf-8"</span> /&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"keywords"</span> <span class="attr">content</span>=<span class="string">"Editor.md, Markdown, Editor"</span> /&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>Hello world!<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">style</span> <span class="attr">type</span>=<span class="string">"text/css"</span>&gt;</span></span><br><span class="line"><span class="css">            <span class="selector-tag">body</span>&#123;<span class="attribute">font-size</span>:<span class="number">14px</span>;<span class="attribute">color</span>:<span class="number">#444</span>;<span class="attribute">font-family</span>: <span class="string">"Microsoft Yahei"</span>, Tahoma, <span class="string">"Hiragino Sans GB"</span>, Arial;<span class="attribute">background</span>:<span class="number">#fff</span>;&#125;</span></span><br><span class="line"><span class="css">            <span class="selector-tag">ul</span>&#123;<span class="attribute">list-style</span>: none;&#125;</span></span><br><span class="line"><span class="css">            <span class="selector-tag">img</span>&#123;<span class="attribute">border</span>:none;<span class="attribute">vertical-align</span>: middle;&#125;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">h1</span> <span class="attr">class</span>=<span class="string">"text-xxl"</span>&gt;</span>Hello world!<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">p</span> <span class="attr">class</span>=<span class="string">"text-green"</span>&gt;</span>Plain text<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h3 id="图片-Images"><a href="#图片-Images" class="headerlink" title="图片 Images"></a>图片 Images</h3><p>图片加链接 (Image + Link)：</p>
+<p><a href="https://www.mdeditor.com/images/logos/markdown.png" target="_blank" rel="noopener" title="markdown"><img src="https://www.mdeditor.com/images/logos/markdown.png" alt=""></a></p>
+<blockquote>
+<p>Follow your heart.</p>
+</blockquote>
+<hr>
+<h3 id="列表-Lists"><a href="#列表-Lists" class="headerlink" title="列表 Lists"></a>列表 Lists</h3><h4 id="无序列表（减号）Unordered-Lists"><a href="#无序列表（减号）Unordered-Lists" class="headerlink" title="无序列表（减号）Unordered Lists (-)"></a>无序列表（减号）Unordered Lists (-)</h4><ul>
+<li>列表一</li>
+<li>列表二</li>
+<li>列表三</li>
+</ul>
+<h4 id="无序列表（星号）Unordered-Lists"><a href="#无序列表（星号）Unordered-Lists" class="headerlink" title="无序列表（星号）Unordered Lists (*)"></a>无序列表（星号）Unordered Lists (*)</h4><ul>
+<li>列表一</li>
+<li>列表二</li>
+<li>列表三</li>
+</ul>
+<h4 id="无序列表（加号和嵌套）Unordered-Lists"><a href="#无序列表（加号和嵌套）Unordered-Lists" class="headerlink" title="无序列表（加号和嵌套）Unordered Lists (+)"></a>无序列表（加号和嵌套）Unordered Lists (+)</h4><ul>
+<li>列表一</li>
+<li>列表二<ul>
+<li>列表二-1</li>
+<li>列表二-2</li>
+<li>列表二-3</li>
+</ul>
+</li>
+<li>列表三<ul>
+<li>列表一</li>
+<li>列表二</li>
+<li>列表三</li>
+</ul>
+</li>
+</ul>
+<h4 id="有序列表-Ordered-Lists"><a href="#有序列表-Ordered-Lists" class="headerlink" title="有序列表 Ordered Lists (-)"></a>有序列表 Ordered Lists (-)</h4><ol>
+<li>第一行</li>
+<li>第二行</li>
+<li>第三行</li>
+</ol>
+<h4 id="GFM-task-list"><a href="#GFM-task-list" class="headerlink" title="GFM task list"></a>GFM task list</h4><ul>
+<li>[x] GFM task list 1</li>
+<li>[x] GFM task list 2</li>
+<li>[ ] GFM task list 3<ul>
+<li>[ ] GFM task list 3-1</li>
+<li>[ ] GFM task list 3-2</li>
+<li>[ ] GFM task list 3-3</li>
+</ul>
+</li>
+<li>[ ] GFM task list 4<ul>
+<li>[ ] GFM task list 4-1</li>
+<li>[ ] GFM task list 4-2</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="绘制表格-Tables"><a href="#绘制表格-Tables" class="headerlink" title="绘制表格 Tables"></a>绘制表格 Tables</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th style="text-align:right">价格</th>
+<th style="text-align:center">数量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>计算机</td>
+<td style="text-align:right">$1600</td>
+<td style="text-align:center">5</td>
+</tr>
+<tr>
+<td>手机</td>
+<td style="text-align:right">$12</td>
+<td style="text-align:center">12</td>
+</tr>
+<tr>
+<td>管线</td>
+<td style="text-align:right">$1</td>
+<td style="text-align:center">234</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Function name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>help()</code></td>
+<td>Display the help window.</td>
+</tr>
+<tr>
+<td><code>destroy()</code></td>
+<td><strong>Destroy your computer!</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Left-Aligned</th>
+<th style="text-align:center">Center Aligned</th>
+<th style="text-align:right">Right Aligned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">col 3 is</td>
+<td style="text-align:center">some wordy text</td>
+<td style="text-align:right">$1600</td>
+</tr>
+<tr>
+<td style="text-align:left">col 2 is</td>
+<td style="text-align:center">centered</td>
+<td style="text-align:right">$12</td>
+</tr>
+<tr>
+<td style="text-align:left">zebra stripes</td>
+<td style="text-align:center">are neat</td>
+<td style="text-align:right">$1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align:right">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Computer</td>
+<td style="text-align:right">$1600</td>
+</tr>
+<tr>
+<td>Phone</td>
+<td style="text-align:right">$12</td>
+</tr>
+<tr>
+<td>Pipe</td>
+<td style="text-align:right">$1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h4 id="特殊符号-HTML-Entities-Codes"><a href="#特殊符号-HTML-Entities-Codes" class="headerlink" title="特殊符号 HTML Entities Codes"></a>特殊符号 HTML Entities Codes</h4><p>&copy; &amp;  &uml; &trade; &iexcl; &pound;<br>&amp; &lt; &gt; &yen; &euro; &reg; &plusmn; &para; &sect; &brvbar; &macr; &laquo; &middot;</p>
+<p>X&sup2; Y&sup3; &frac34; &frac14;  &times;  &divide;   &raquo;</p>
+<p>18&ordm;C  &quot;  &apos;</p>
+<p>[========]</p>
+<h3 id="Emoji表情-smiley"><a href="#Emoji表情-smiley" class="headerlink" title="Emoji表情 :smiley:"></a>Emoji表情 :smiley:</h3><blockquote>
+<p>Blockquotes :star:</p>
+</blockquote>
+<h4 id="GFM-task-lists-amp-Emoji-amp-fontAwesome-icon-emoji-amp-editormd-logo-emoji-editormd-logo-5x"><a href="#GFM-task-lists-amp-Emoji-amp-fontAwesome-icon-emoji-amp-editormd-logo-emoji-editormd-logo-5x" class="headerlink" title="GFM task lists &amp; Emoji &amp; fontAwesome icon emoji &amp; editormd logo emoji :editormd-logo-5x:"></a>GFM task lists &amp; Emoji &amp; fontAwesome icon emoji &amp; editormd logo emoji :editormd-logo-5x:</h4><ul>
+<li>[x] :smiley: @mentions, :smiley: #refs, <a href="">links</a>, <strong>formatting</strong>, and <del>tags</del> supported :editormd-logo:;</li>
+<li>[x] list syntax required (any unordered or ordered list supported) :editormd-logo-3x:;</li>
+<li>[x] [ ] :smiley: this is a complete item :smiley:;</li>
+<li>[ ] []this is an incomplete item <a href="#">test link</a> :fa-star: @pandao;</li>
+<li>[ ] [ ]this is an incomplete item :fa-star: :fa-gear:;<ul>
+<li>[ ] :smiley: this is an incomplete item <a href="#">test link</a> :fa-star: :fa-gear:;</li>
+<li>[ ] :smiley: this is  :fa-star: :fa-gear: an incomplete item <a href="#">test link</a>;</li>
+</ul>
+</li>
+</ul>
+<h4 id="反斜杠-Escape"><a href="#反斜杠-Escape" class="headerlink" title="反斜杠 Escape"></a>反斜杠 Escape</h4><p>*literal asterisks*</p>
+<p>[========]</p>
+<h3 id="科学公式-TeX-KaTeX"><a href="#科学公式-TeX-KaTeX" class="headerlink" title="科学公式 TeX(KaTeX)"></a>科学公式 TeX(KaTeX)</h3><script type="math/tex; mode=display">E=mc^2</script><p>行内的公式<script type="math/tex">E=mc^2</script>行内的公式，行内的<script type="math/tex">E=mc^2</script>公式。</p>
+<script type="math/tex; mode=display">x > y</script><script type="math/tex; mode=display">\(\sqrt{3x-1}+(1+x)^2\)</script><script type="math/tex; mode=display">\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))</script><p>多行公式：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">\displaystyle</span><br><span class="line">\left( \sum\_&#123;k&#x3D;1&#125;^n a\_k b\_k \right)^2</span><br><span class="line">\leq</span><br><span class="line">\left( \sum\_&#123;k&#x3D;1&#125;^n a\_k^2 \right)</span><br><span class="line">\left( \sum\_&#123;k&#x3D;1&#125;^n b\_k^2 \right)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">\displaystyle</span><br><span class="line">    \frac&#123;1&#125;&#123;</span><br><span class="line">        \Bigl(\sqrt&#123;\phi \sqrt&#123;5&#125;&#125;-\phi\Bigr) e^&#123;</span><br><span class="line">        \frac25 \pi&#125;&#125; &#x3D; 1+\frac&#123;e^&#123;-2\pi&#125;&#125; &#123;1+\frac&#123;e^&#123;-4\pi&#125;&#125; &#123;</span><br><span class="line">        1+\frac&#123;e^&#123;-6\pi&#125;&#125;</span><br><span class="line">        &#123;1+\frac&#123;e^&#123;-8\pi&#125;&#125;</span><br><span class="line">         &#123;1+\cdots&#125; &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">f(x) &#x3D; \int_&#123;-\infty&#125;^\infty</span><br><span class="line">    \hat f(\xi)\,e^&#123;2 \pi i \xi x&#125;</span><br><span class="line">    \,d\xi</span><br></pre></td></tr></table></figure>
+<h3 id="分页符-Page-break"><a href="#分页符-Page-break" class="headerlink" title="分页符 Page break"></a>分页符 Page break</h3><blockquote>
+<p>Print Test: Ctrl + P</p>
+</blockquote>
+<p>[========]</p>
+<h3 id="绘制流程图-Flowchart"><a href="#绘制流程图-Flowchart" class="headerlink" title="绘制流程图 Flowchart"></a>绘制流程图 Flowchart</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">st&#x3D;&gt;start: 用户登陆</span><br><span class="line">op&#x3D;&gt;operation: 登陆操作</span><br><span class="line">cond&#x3D;&gt;condition: 登陆成功 Yes or No?</span><br><span class="line">e&#x3D;&gt;end: 进入后台</span><br><span class="line"></span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;op</span><br></pre></td></tr></table></figure>
+<p>[========]</p>
+<h3 id="绘制序列图-Sequence-Diagram"><a href="#绘制序列图-Sequence-Diagram" class="headerlink" title="绘制序列图 Sequence Diagram"></a>绘制序列图 Sequence Diagram</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Andrew-&gt;China: Says Hello</span><br><span class="line">Note right of China: China thinks\nabout it</span><br><span class="line">China--&gt;Andrew: How are you?</span><br><span class="line">Andrew-&gt;&gt;China: I am good thanks!</span><br></pre></td></tr></table></figure>
+<h3 id="End"><a href="#End" class="headerlink" title="End"></a>End</h3>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://kxmtufei.github.io/kxmtufei.github.io/2019/11/01/Hexo-Theme-Snail/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="吴大龙">
+      <meta itemprop="description" content="true">
+      <meta itemprop="image" content="/kxmtufei.github.io/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Big Dragon - Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/kxmtufei.github.io/2019/11/01/Hexo-Theme-Snail/" itemprop="url">Hexo-Theme-Snail</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-11-01T22:02:12+08:00">
+                2019-11-01
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="hexo-theme-snail"><a href="#hexo-theme-snail" class="headerlink" title="hexo-theme-snail"></a>hexo-theme-snail</h1><p><a href="https://github.com/dusign/hexo-theme-snail" target="_blank" rel="noopener">View Hexo-Theme-Snail Sources On Github &#10174; </a></p>
+<p><a href="https://www.dusign.net" target="_blank" rel="noopener">View Live Super Snail Blog &#10174;</a></p>
+<p><img src="snail.png" alt="hexo-theme-snail"></p>
+<p>Hexo-theme-snail is a succinct hexo theme. It has two colors, light and star, that can be set according to your own preferences in the settings, and also has the functions of sharing and commenting. More features are under development.</p>
+<h2 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h2><ul>
+<li>light color theme and star theme</li>
+<li>diversified comment system</li>
+<li>notice tips</li>
+<li>share to other platforms (under development)</li>
+<li>picture sharing (under development)</li>
+</ul>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+<h3 id="Setup-your-blog"><a href="#Setup-your-blog" class="headerlink" title="Setup your blog"></a>Setup your blog</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init blog</span><br></pre></td></tr></table></figure>
+<h3 id="Installation-Theme"><a href="#Installation-Theme" class="headerlink" title="Installation Theme"></a>Installation Theme</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> blog</span><br><span class="line">$ rm -rf <span class="built_in">source</span></span><br><span class="line">$ rm _config.yml package.json README.md LICENSE</span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/dusign/hexo-theme-snail.git</span><br><span class="line">$ mv ./hexo-theme-snail/snail ./themes</span><br><span class="line">$ mv ./hexo-theme-snail/* ./</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+<h3 id="Set-Theme"><a href="#Set-Theme" class="headerlink" title="Set Theme"></a>Set Theme</h3><p>Modify the value of <code>theme:</code> in <code>_config.yml</code><br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Extensions</span></span><br><span class="line"><span class="comment">## Plugins: https://hexo.io/plugins/</span></span><br><span class="line"><span class="comment">## Themes: https://hexo.io/themes/</span></span><br><span class="line"><span class="attr">theme:</span> <span class="string">snail</span></span><br></pre></td></tr></table></figure></p>
+<h3 id="Start-the-Server"><a href="#Start-the-Server" class="headerlink" title="Start the Server"></a>Start the Server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<h2 id="Configuration"><a href="#Configuration" class="headerlink" title="Configuration"></a>Configuration</h2><h3 id="Site"><a href="#Site" class="headerlink" title="Site"></a>Site</h3><p>Replace the following information with your own.<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Site</span></span><br><span class="line"><span class="attr">title:</span> </span><br><span class="line"><span class="attr">subtitle:</span> <span class="string">At</span> <span class="string">the</span> <span class="string">bottom</span> <span class="string">of</span> <span class="string">the</span> <span class="string">well,</span> <span class="string">it</span> <span class="string">is</span> <span class="string">destined</span> <span class="string">to</span> <span class="string">see</span> <span class="string">only</span> <span class="string">the</span> <span class="string">sky</span> <span class="string">at</span> <span class="string">the</span> <span class="string">wellhead.</span> </span><br><span class="line">          <span class="string">However,</span> <span class="string">the</span> <span class="string">starting</span> <span class="string">point</span> <span class="string">only</span> <span class="string">affects</span> <span class="string">the</span> <span class="string">process</span> <span class="string">of</span> <span class="string">reaching</span> <span class="string">your</span> <span class="string">peak</span> <span class="string">and</span> <span class="string">does</span> <span class="string">not</span> <span class="string">determine</span> <span class="string">the</span> <span class="string">height</span> <span class="string">you</span> <span class="string">reach.</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">Dusign</span></span><br><span class="line"><span class="attr">language:</span> <span class="string">en</span></span><br><span class="line"><span class="attr">timezone:</span></span><br></pre></td></tr></table></figure></p>
+<h3 id="Site-Settings"><a href="#Site-Settings" class="headerlink" title="Site Settings"></a>Site Settings</h3><p>Put customized pictures in <code>img</code> directory.<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Site settings</span></span><br><span class="line"><span class="attr">SEOTitle:</span> <span class="string">Hexo-theme-snail</span></span><br><span class="line"><span class="attr">email:</span> <span class="string">hexo-theme-snail@mail.com</span></span><br><span class="line"><span class="attr">description:</span> <span class="string">"A hexo theme"</span></span><br><span class="line"><span class="attr">keyword:</span> <span class="string">"dusign, hexo-theme-snail"</span></span><br><span class="line"><span class="attr">header-img:</span> <span class="string">img/header_img/home-bg-1-dark.jpg</span></span><br><span class="line"><span class="attr">signature:</span> <span class="literal">true</span> <span class="comment">#show signature</span></span><br><span class="line"><span class="attr">signature-img:</span> <span class="string">img/signature/Just-do-it-white.png</span></span><br></pre></td></tr></table></figure></p>
+<h3 id="SNS-Settings"><a href="#SNS-Settings" class="headerlink" title="SNS Settings"></a>SNS Settings</h3><p>If you don’t want to display it, you can delete it directly.<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># SNS settings</span></span><br><span class="line"><span class="attr">github_username:</span>    <span class="string">dusign</span></span><br><span class="line"><span class="attr">twitter_username:</span>   <span class="string">dusignr</span></span><br><span class="line"><span class="attr">facebook_username:</span>  <span class="string">Gang</span> <span class="string">Du</span></span><br><span class="line"><span class="attr">zhihu_username:</span> <span class="string">dusignr</span></span><br></pre></td></tr></table></figure></p>
+<h3 id="Sidebar-Settings"><a href="#Sidebar-Settings" class="headerlink" title="Sidebar Settings"></a>Sidebar Settings</h3><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Sidebar Settings</span></span><br><span class="line"><span class="attr">sidebar:</span> <span class="literal">true</span>                      <span class="comment"># whether or not using Sidebar.</span></span><br><span class="line"><span class="attr">sidebar-about-description:</span> <span class="string">"Welcome to visit, I'm Dusign!"</span></span><br><span class="line"><span class="attr">sidebar-avatar:</span> <span class="string">img/ironman-draw.png</span>      <span class="comment"># use absolute URL, seeing it's used in both `/` and `/about/`</span></span><br><span class="line"><span class="attr">widgets:</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">featured-tags</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">short-about</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">recent-posts</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">friends-blog</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">archive</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">category</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># widget behavior</span></span><br><span class="line"><span class="comment">## Archive</span></span><br><span class="line"><span class="attr">archive_type:</span> <span class="string">'monthly'</span></span><br><span class="line"><span class="attr">show_count:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">## Featured Tags</span></span><br><span class="line"><span class="attr">featured-tags:</span> <span class="literal">true</span>                     <span class="comment"># whether or not using Feature-Tags</span></span><br><span class="line"><span class="attr">featured-condition-size:</span> <span class="number">1</span>              <span class="comment"># A tag will be featured if the size of it is more than this condition value</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">## Friends</span></span><br><span class="line"><span class="attr">friends:</span> <span class="string">[</span></span><br><span class="line">    <span class="string">&#123;</span></span><br><span class="line">        <span class="attr">title:</span> <span class="string">"Dusign's Blog"</span><span class="string">,</span></span><br><span class="line">        <span class="attr">href:</span> <span class="string">"https://blog.csdn.net/d_Nail"</span></span><br><span class="line">    <span class="string">&#125;,&#123;</span></span><br><span class="line">        <span class="attr">title:</span> <span class="string">"Dusign's Web"</span><span class="string">,</span></span><br><span class="line">        <span class="attr">href:</span> <span class="string">"#"</span></span><br><span class="line">    <span class="string">&#125;,&#123;</span></span><br><span class="line">        <span class="attr">title:</span> <span class="string">"Dusign's Github"</span><span class="string">,</span></span><br><span class="line">        <span class="attr">href:</span> <span class="string">"https://github.com/dusign"</span></span><br><span class="line">    <span class="string">&#125;,&#123;</span></span><br><span class="line">        <span class="attr">title:</span> <span class="string">"Other"</span><span class="string">,</span></span><br><span class="line">        <span class="attr">href:</span> <span class="string">"#"</span></span><br><span class="line">    <span class="string">&#125;</span></span><br><span class="line"><span class="string">]</span></span><br></pre></td></tr></table></figure>
+<h3 id="Theme"><a href="#Theme" class="headerlink" title="Theme"></a>Theme</h3><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Extensions</span></span><br><span class="line"><span class="comment">## Plugins: https://hexo.io/plugins/</span></span><br><span class="line"><span class="comment">## Themes: https://hexo.io/themes/</span></span><br><span class="line"><span class="attr">theme:</span> <span class="string">snail</span></span><br></pre></td></tr></table></figure>
+<h3 id="Deployment"><a href="#Deployment" class="headerlink" title="Deployment"></a>Deployment</h3><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/deployment.html</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span></span><br><span class="line">      <span class="attr">github:</span> <span class="string">github.repository.address</span></span><br><span class="line">      <span class="attr">coding:</span> <span class="string">coding.repository.address</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
+<h3 id="Comment"><a href="#Comment" class="headerlink" title="Comment"></a>Comment</h3><p>See httpymls://github.com/imsun/gitment for detailed configuration method.<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Comment</span></span><br><span class="line"><span class="comment">## This comment system is gitment</span></span><br><span class="line"><span class="comment">## gitment url: https://github.com/imsun/gitment</span></span><br><span class="line"><span class="attr">comment:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">owner:</span></span><br><span class="line">  <span class="attr">repo:</span></span><br><span class="line">  <span class="attr">client_id:</span></span><br><span class="line">  <span class="attr">client_secret:</span></span><br></pre></td></tr></table></figure></p>
+<h3 id="Tip"><a href="#Tip" class="headerlink" title="Tip"></a>Tip</h3><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Tip</span></span><br><span class="line"><span class="attr">tip:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">content:</span> <span class="string">欢迎访问</span> <span class="string">&lt;a</span> <span class="string">href="https://www.dusign.net"</span> <span class="string">target="dusign"&gt;dusign&lt;/a&gt;</span> <span class="string">的博客，博客系统一键分享的功能还在完善中，请大家耐心等待。</span></span><br><span class="line">          <span class="string">若有问题或者有好的建议欢迎留言，笔者看到之后会及时回复。</span></span><br><span class="line">          <span class="string">评论点赞需要github账号登录，如果没有账号的话请点击</span> </span><br><span class="line">          <span class="string">&lt;a</span> <span class="string">href="https://github.com"</span> <span class="string">target="view_window"</span> <span class="string">&gt;</span> <span class="string">github</span> <span class="string">&lt;/a&gt;</span> <span class="string">注册，</span> <span class="string">谢谢</span> <span class="string">!</span></span><br></pre></td></tr></table></figure>
+<h3 id="Color-Sheme"><a href="#Color-Sheme" class="headerlink" title="Color Sheme"></a>Color Sheme</h3><p>Set the <code>enable</code> value of the desired color sheme to <code>true</code>. If the value of <code>bg_effects.star.enable</code> is <code>true</code>, please modify the value of <code>highlight_theme</code> in <code>./themes/snail/_config.yml</code> to <code>night</code>.<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Color Sheme</span></span><br><span class="line"><span class="comment">## If there is no effect after modification, please empty the cache and try again.</span></span><br><span class="line"><span class="comment">## ⚠️ The following special effects will take up a lot of cpu resorces, please open it carefully.</span></span><br><span class="line"><span class="attr">bg_effects:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">line:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">color:</span> <span class="number">129</span><span class="string">,200,61</span></span><br><span class="line">    <span class="attr">pointColor:</span> <span class="number">129</span><span class="string">,200,61</span></span><br><span class="line">    <span class="attr">opacity:</span> <span class="number">0.7</span></span><br><span class="line">    <span class="attr">zIndex:</span> <span class="number">-9</span></span><br><span class="line">    <span class="attr">count:</span> <span class="number">99</span></span><br><span class="line">  <span class="attr">mouse_click:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">content:</span> <span class="string">'"🌱","just do it","🌾","🍀","don'</span><span class="string">'t give up","🍂","🌻","try it again","🍃","never say die","🌵","🌿","🌴"'</span></span><br><span class="line">    <span class="attr">color:</span> <span class="string">'"rgb(121,93,179)"</span></span><br><span class="line"><span class="string">          ,"rgb(76,180,231)"</span></span><br><span class="line"><span class="string">          ,"rgb(184,90,154)"</span></span><br><span class="line"><span class="string">          ,"rgb(157,211,250)"</span></span><br><span class="line"><span class="string">          ,"rgb(255,0,0)"</span></span><br><span class="line"><span class="string">          ,"rgb(242,153,29)"</span></span><br><span class="line"><span class="string">          ,"rgb(23,204,16)"</span></span><br><span class="line"><span class="string">          ,"rgb(222,0,0)"</span></span><br><span class="line"><span class="string">          ,"rgb(22,36,92)"</span></span><br><span class="line"><span class="string">          ,"rgb(127,24,116)"</span></span><br><span class="line"><span class="string">          ,"rgb(119,195,79)"</span></span><br><span class="line"><span class="string">          ,"rgb(4,77,34)"</span></span><br><span class="line"><span class="string">          ,"rgb(122,2,60)"'</span></span><br><span class="line">  <span class="attr">star:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
+<h2 id="Releases"><a href="#Releases" class="headerlink" title="Releases"></a>Releases</h2><p>V1.0</p>
+<ul>
+<li>fix the bugs</li>
+<li>add comment system</li>
+<li>add notice tips</li>
+<li>add star sheme</li>
+</ul>
+<h2 id="License"><a href="#License" class="headerlink" title="License"></a>License</h2><p>Apache License 2.0 Copyright(c) 2018-2020 <a href="https://github.com/dusign" target="_blank" rel="noopener">Dusign</a>   </p>
+<p><a href="https://github.com/dusign/hexo-theme-snail" target="_blank" rel="noopener">hexo-theme-snail</a> is derived from <a href="https://github.com/Huxpro/huxpro.github.io" target="_blank" rel="noopener">Huxpro</a> Apache License 2.0. Copyright (c) 2015-2020 Huxpro</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">吴大龙</p>
+              <p class="site-description motion-element" itemprop="description">青笺画卿颜，锦书念依安..</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/kxmtufei.github.io/archives/%20%7C%7C%20archive">
+              
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-name">标签</span>
+                
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">吴大龙</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
 </script>
 
 
-<!-- Search -->
-
-    <script type="text/javascript">      
-        var search_path = "search.xml";
-        if (search_path.length == 0) {
-            search_path = "search.xml";
-        }
-    var path = "/kxmtufei.github.io/" + search_path;
-    searchFunc(path, 'local-search-input', 'local-search-result');
-    </script>
-
-
-<!-- busuanzi -->
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
 
 
 
-	<a id="rocket" href="#top" class=""></a>
-	<script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
-    <script type="text/javascript" src="/js/toc.js?v=1.0.0" async=""></script>
 
-    
-        <!-- background effects start -->
-        
+  
 
-        
-            <script type="text/javascript" src="/js/mouse-click.js" content='[&quot;🌱&quot;,&quot;just do it&quot;,&quot;🌾&quot;,&quot;🍀&quot;,&quot;don&#39;t give up&quot;,&quot;🍂&quot;,&quot;🌻&quot;,&quot;try it again&quot;,&quot;🍃&quot;,&quot;never say die&quot;,&quot;🌵&quot;,&quot;🌿&quot;,&quot;🌴&quot;]' color='[&quot;rgb(121,93,179)&quot; ,&quot;rgb(76,180,231)&quot; ,&quot;rgb(184,90,154)&quot; ,&quot;rgb(157,211,250)&quot; ,&quot;rgb(255,0,0)&quot; ,&quot;rgb(242,153,29)&quot; ,&quot;rgb(23,204,16)&quot; ,&quot;rgb(222,0,0)&quot; ,&quot;rgb(22,36,92)&quot; ,&quot;rgb(127,24,116)&quot; ,&quot;rgb(119,195,79)&quot; ,&quot;rgb(4,77,34)&quot; ,&quot;rgb(122,2,60)&quot;]'></script>
-        
 
-        <!-- background effects end -->
-    
 
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
-            processEscapes: true
-        }
-    });
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax();
-        for (var i = 0; i < all.length; ++i)
-            all[i].SourceElement().parentNode.className += ' has-jax';
-    });
-</script>
-<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/kxmtufei.github.io/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/kxmtufei.github.io/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/kxmtufei.github.io/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/kxmtufei.github.io/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/kxmtufei.github.io/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/kxmtufei.github.io/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/kxmtufei.github.io/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/kxmtufei.github.io/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/kxmtufei.github.io/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/kxmtufei.github.io/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/kxmtufei.github.io/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
 </body>
-
 </html>
