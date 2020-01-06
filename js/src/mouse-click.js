@@ -8,12 +8,26 @@ for (var i=0; i< scripts.length;i++) {
     if (script && script.getAttribute("src") && script.getAttribute("src").indexOf("mouse-click.js")>-1 && script.getAttribute("content")) {
         a = JSON.parse(script.getAttribute("content"));
         f_colors = JSON.parse(script.getAttribute("color"));
+		if(f_colors == "" || f_colors == null){
+			f_colors = new Array("rgb(121,93,179)","rgb(76,180,231)"
+          ,"rgb(184,90,154)"
+          ,"rgb(157,211,250)"
+          ,"rgb(255,0,0)"
+          ,"rgb(242,153,29)"
+          ,"rgb(23,204,16)"
+          ,"rgb(222,0,0)"
+          ,"rgb(22,36,92)"
+          ,"rgb(127,24,116)"
+          ,"rgb(119,195,79)"
+          ,"rgb(4,77,34)"
+          ,"rgb(122,2,60)");
+		}
     }
 }
 
 jQuery(document).ready(function($) {
     $("body").click(function(e) {
-        //var a = new Array("富强", "民主", "文明", "和谐", "自由", "平等", "公正" ,"法治", "爱国", "敬业", "诚信", "友善");
+        var a = new Array("🌱","just do it","🌾","🍀","don''t give up","🍂","🌻","try it again","🍃","never say die","🌵","🌿","🌴");
         var $i = $("<span/>").text(a[a_idx]);
         
         a_idx = (a_idx + 1) % a.length;
