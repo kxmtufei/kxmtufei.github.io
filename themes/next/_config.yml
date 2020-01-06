@@ -98,14 +98,14 @@ index_with_subtitle: false
 menu:
   home: / || home
   #关于页面
-  about: /about/ || user
+  about: /about || user
   #标签页
-  tags: /tags/ || tags
+  tags: /tags || tags
   #分类页 url || 图标名
-  categories: /categories/ || th
-  springboot: /springboot/ || apple
+  categories: /categories || th
+  springboot: /springboot || apple
   #归档页
-  archives: /archives/ || archive
+  archives: /archives || archive
   search: /search/ || search
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
@@ -401,12 +401,12 @@ changyan:
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
 valine:
-  enable: false
-  appid:  # your leancloud application appid
-  appkey:  # your leancloud application appkey
+  enable: true
+  appid: jx2YC4Rfhbu5TAghN4McBQE2-gzGzoHsz
+  appkey: WzDOCBeTIYcuWyEBO1dlh0yx
   notify: false # mail notifier , https://github.com/xCss/Valine/wiki
   verify: false # Verification code
-  placeholder: Just go go # comment box placeholder
+  placeholder: ヾﾉ≧∀≦)o 来吧!
   #头像
   #avatar: /uploads/avatar.jpg
   # custom comment header
@@ -829,7 +829,10 @@ vendors:
   # https://github.com/revir/need-more-share2
   needMoreShare2:
 
-
+# 文章末尾添加“本文结束”标记
+passage_end_tag:
+  enabled: true
+  
 # Assets
 css: css
 js: js

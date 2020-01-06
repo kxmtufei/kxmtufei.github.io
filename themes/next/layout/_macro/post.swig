@@ -352,7 +352,12 @@
         {% include 'post-copyright.swig' with { post: post } %}
       </div>
     {% endif %}
-
+	
+	{% if not is_index %}
+      <div>
+        {% include 'passage-end-tag.swig' %}
+      </div>
+    {% endif %}
     <footer class="post-footer">
       {% if post.tags and post.tags.length and not is_index %}
         <div class="post-tags">
