@@ -8,8 +8,13 @@ for (var i=0; i< scripts.length;i++) {
     if (script && script.getAttribute("src") && script.getAttribute("src").indexOf("mouse-click.js")>-1 && script.getAttribute("content")) {
         a = JSON.parse(script.getAttribute("content"));
         f_colors = JSON.parse(script.getAttribute("color"));
-		if(f_colors == "" || f_colors == null){
-			f_colors = new Array("rgb(121,93,179)","rgb(76,180,231)"
+    }
+}
+
+jQuery(document).ready(function($) {
+    $("body").click(function(e) {
+        var a = new Array("🌱","just do it","🌾","🍀","don''t give up","🍂","🌻","try it again","🍃","never say die","🌵","🌿","🌴");
+        f_colors = new Array("rgb(121,93,179)","rgb(76,180,231)"
           ,"rgb(184,90,154)"
           ,"rgb(157,211,250)"
           ,"rgb(255,0,0)"
@@ -21,14 +26,7 @@ for (var i=0; i< scripts.length;i++) {
           ,"rgb(119,195,79)"
           ,"rgb(4,77,34)"
           ,"rgb(122,2,60)");
-		}
-    }
-}
-
-jQuery(document).ready(function($) {
-    $("body").click(function(e) {
-        var a = new Array("🌱","just do it","🌾","🍀","don''t give up","🍂","🌻","try it again","🍃","never say die","🌵","🌿","🌴");
-        var $i = $("<span/>").text(a[a_idx]);
+		var $i = $("<span/>").text(a[a_idx]);
         
         a_idx = (a_idx + 1) % a.length;
         var x = e.pageX,y = e.pageY;
