@@ -81,11 +81,11 @@
 
 <meta name="description" content="青笺画卿颜，锦书念依安..">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Big Dragon - Blog">
+<meta property="og:title" content="Mango Cheese - Blog">
 <meta property="og:url" content="https://kxmtufei.github.io/archives/index.html">
-<meta property="og:site_name" content="Big Dragon - Blog">
+<meta property="og:site_name" content="Mango Cheese - Blog">
 <meta property="og:description" content="青笺画卿颜，锦书念依安..">
-<meta property="article:author" content="吴大龙">
+<meta property="article:author" content="芒の憨憨">
 <meta name="twitter:card" content="summary">
 
 
@@ -122,7 +122,7 @@
 
 
 
-  <title>归档 | Big Dragon - Blog</title>
+  <title>归档 | Mango Cheese - Blog</title>
   
 
 
@@ -162,7 +162,7 @@
     <div class="custom-logo-site-title">
       <a href="/kxmtufei.github.io/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Big Dragon - Blog</span>
+        <span class="site-title">Mango Cheese - Blog</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -198,7 +198,7 @@
       
         
         <li class="menu-item menu-item-about">
-          <a href="/kxmtufei.github.io/about/%20" rel="section">
+          <a href="/kxmtufei.github.io/about%20" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
             
@@ -208,7 +208,7 @@
       
         
         <li class="menu-item menu-item-tags">
-          <a href="/kxmtufei.github.io/tags/%20" rel="section">
+          <a href="/kxmtufei.github.io/tags%20" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
@@ -218,7 +218,7 @@
       
         
         <li class="menu-item menu-item-categories">
-          <a href="/kxmtufei.github.io/categories/%20" rel="section">
+          <a href="/kxmtufei.github.io/categories%20" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
@@ -228,7 +228,7 @@
       
         
         <li class="menu-item menu-item-springboot">
-          <a href="/kxmtufei.github.io/springboot/%20" rel="section">
+          <a href="/kxmtufei.github.io/springboot%20" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-apple"></i> <br />
             
@@ -238,7 +238,7 @@
       
         
         <li class="menu-item menu-item-archives">
-          <a href="/kxmtufei.github.io/archives/%20" rel="section">
+          <a href="/kxmtufei.github.io/archives%20" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
@@ -449,10 +449,10 @@
 			<a href="/">
               <img class="site-author-image" itemprop="image"
                 src="/kxmtufei.github.io/uploads/avatar.jpg"
-                alt="吴大龙" />
+                alt="芒の憨憨" />
 			</a>
             
-              <p class="site-author-name" itemprop="name">吴大龙</p>
+              <p class="site-author-name" itemprop="name">芒の憨憨</p>
               <p class="site-description motion-element" itemprop="description">青笺画卿颜，锦书念依安..</p>
           </div>
 
@@ -461,7 +461,7 @@
             
               <div class="site-state-item site-state-posts">
               
-                <a href="/kxmtufei.github.io/archives/%20%7C%7C%20archive">
+                <a href="/kxmtufei.github.io/archives%20%7C%7C%20archive">
               
                   <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
@@ -517,7 +517,7 @@
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">吴大龙</span>
+  <span class="author" itemprop="copyrightHolder">芒の憨憨</span>
 
   
 </div>
@@ -570,7 +570,9 @@
     
 
   </div>
-
+    <!-- 页面点击小红心 -->
+  
+  
   
 
 <script type="text/javascript">
@@ -696,6 +698,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'jx2YC4Rfhbu5TAghN4McBQE2-gzGzoHsz',
+        appKey: 'WzDOCBeTIYcuWyEBO1dlh0yx',
+        placeholder: 'ヾﾉ≧∀≦)o 来吧!',
+        avatar:'',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
