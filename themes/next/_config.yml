@@ -98,9 +98,9 @@ index_with_subtitle: false
 menu:
   home: /||home
   #关于页面
-  about: /about||user
+  about: /about/||user
   #标签页
-  tags: /tags||tags
+  tags: /tags/||tags
   #分类页 url || 图标名
   categories: /categories||th
   springboot: /springboot||apple
