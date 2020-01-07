@@ -96,20 +96,20 @@ index_with_subtitle: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 #设置 菜单
 menu:
-  home: / || home
+  home: /|| home
   #关于页面
-  about: /about || user
+  about: /about|| user
   #标签页
-  tags: /tags || tags
-  #分类页 url || 图标名
-  categories: /categories || th
-  springboot: /springboot || apple
+  tags: /tags|| tags
+  #分类页 url|| 图标名
+  categories: /categories|| th
+  springboot: /springboot|| apple
   #归档页
-  archives: /archives || archive
-  search: /search/ || search
-  #schedule: /schedule/ || calendar
-  #sitemap: /sitemap.xml || sitemap
-  #commonweal: /404/ || heartbeat
+  archives: /archives|| archive
+  #search: /search/|| search
+  #schedule: /schedule/|| calendar
+  #sitemap: /sitemap.xml|| sitemap
+  #commonweal: /404/|| heartbeat
 
 # Enable/Disable menu icons.
 menu_icons:
